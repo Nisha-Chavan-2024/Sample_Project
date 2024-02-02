@@ -1,0 +1,390 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+.container{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    
+
+}
+
+header{
+    overflow: auto;
+    background: #354241;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    width: 100%;
+    border-bottom: #E8491d solid 3px;
+}
+header a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+ }
+header li{
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+}
+.logo{
+    float: left;
+    height: 50px;
+}
+header nav{
+    float: right;
+    margin-top: 7px;
+}
+header .logo h1{
+    margin: 0;
+    margin-top: 7px;
+}
+header .highlight{
+    color: #E8491d;
+    font-weight: bold;
+}
+
+header .current a{
+    color: #E8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#img{
+    background-image: url(back.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: -495px -413px;
+    text-align: center;
+    color: white;
+   
+}
+#img h1{
+    margin-top: 168px;
+    font-size: 45px;
+    color:white;
+    margin-bottom: 35px;
+}
+#img p{
+  font-size: 17px;
+}
+#newsletter{
+    background-color: #354241;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input
+{
+    padding: 5px;
+    width: 250px;
+    height: 25px;
+}
+form .btn{
+    background: #E8491d;
+    color: white;
+    height: 39px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#boxes .box{
+    /* float: left;
+    width: 30%;
+    padding: 14px;
+    text-align: center;
+    margin-top: 10px */
+    float: left;
+    width: 28%;
+    height: 325px;
+
+    padding: 14px;
+  
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px; 
+   
+    
+}
+
+ #boxes .box:hover{
+   transform: scale(1.1);
+} 
+
+footer{
+    background-color: #E8491d;
+    color: white;
+    padding: 20px;
+    margin-top: -9px;
+    text-align: center;
+    height: 25px;
+    font-size: 18px;
+}
+#boxes{
+    min-height: 398px;
+}
+
+#side{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 16px;
+   
+}
+.dark{
+    background-color: #354241;
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+    line-height: 1.8em;
+    border: 2px solid #E8491d ;
+}
+.dark h3{
+    font-size: 25px;
+}
+.art{
+    float: left;
+    width: 65%;
+    line-height: 1.8em;
+    float: left;
+}
+.change{
+    float: left;
+    width: 100%;
+    line-height: 1.6em;
+    text-align: center;
+}
+.change li{
+    list-style: none;
+    padding: 15px;
+    border: #cccccc solid 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+
+}
+.change li:hover{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #E8491d;
+}
+ul .all li{
+    width: 350px;
+    margin-left: 36px;
+    float: left;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+.change h1{
+    font-size: 30px;
+}
+.art h1{
+    font-size: 30px;
+}
+.all li h3{
+    font-size: 20px;
+}
+.f input, .f textarea{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.art p{
+    margin-right: 20px;
+}
+footer{
+   
+    margin-top: 10px;
+}
+footer p {
+    margin-top: 4px;
+}
+.end{
+    min-height: 40vh;
+    background-color: #E8491d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.con{
+    width: 80%;
+}
+.con h2{
+    margin-left: 51PX;
+    font-size: 28px;
+}
+.add img{
+    float: left;
+    margin-top: 14px;
+    margin-left: 403px;
+    width: 25px;
+    height: 25px;
+}
+
+.add p{
+    float: right;
+    font-size: 16px;
+    margin-right: 217px;;
+}
+
+.email p{
+    margin-left: -310px;
+    margin-top: -30px;
+    font-size: 16px;
+}
+.email img{
+    margin-left: 390px;
+    margin-top: 28px;
+}
+.call p{
+    font-size: 16px;
+    margin-top: -30px;
+    margin-left: -341px;
+}
+.call img{
+    margin-left: -494px;
+    margin-top: 14px;
+}
+.social{
+    margin-left: 190px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    background-color: #E8491d;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-top: 42px;
+    margin-left: 360px;
+}
+.insta img{
+    margin-top: 5px;
+    margin-left: 1px;
+    
+}
+.face{
+    width: 45px;
+    height: 45px;
+    background-color: #E8491d;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-top: -45px;
+    margin-left: 440px;
+}
+.face img{
+    margin-top: 7px;
+}
+.twit{
+    width: 45px;
+    height: 45px;
+    background-color: #E8491d;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-top: -47px;
+    margin-left: 600px;
+}
+.twit img{
+    margin-top: 7px;
+}
+.in{
+    width: 40px;
+    height: 40px;
+    background-color: #E8491d;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-top: -47px;
+    margin-left: 520px
+}
+.in img
+{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.social .insta:hover, .social .face:hover, .social .in:hover, .social .twit:hover{
+    background-color: #354241;
+    cursor: pointer;
+    
+}
+
+@media(max-width: 768px) {
+   header .container,#newsletter h1,#newsletter form,#boxes .box,section .con{
+    float: none;
+    text-align: center;
+    width: 100%;
+    
+   }
+   #boxes .box{
+    background-color:#e6e6e6;
+    padding-left:1px;
+    border-left:#cccccc solid 1px;
+    border:#cccccc solid 1px;
+ }
+   section .container .art{
+    text-align: center;
+     width:100%;
+  }
+   #side .dark{
+    text-align: center;
+     float:none;
+      width:100;
+      margin-left:-280px;
+   }
+   header nav,header nav ul,header nav li,header h1{
+    margin-right:10px;
+    margin-bottom: 10px;
+   }
+   .container .logo h1{
+    margin-left: 110px;}
+
+   header {
+    margin-top:20px;
+   }
+    
+   #img h1{
+    line-height: 1.6em;
+    margin-top: 80px;
+   } 
+   #img p{
+    line-height: 1.6em;
+    
+   } 
+   #newsletter button,#newsletter input{
+    display: block;
+    width: 100%;
+    
+    margin-top: 20px;
+   }
+   .add img{
+    margin-left: 100px;
+   }
+}
